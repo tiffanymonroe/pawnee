@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
+import Statutes from './Statutes'
 
 class Government extends Component {
   render(){
     return(
-      <div>
-        <h1>Government</h1>
+      <div className="container-fluid">
+        <Statutes />
+
       </div>
     )
   }

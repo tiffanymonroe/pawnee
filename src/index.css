@@ -9,7 +9,8 @@
 }
 
 body {
-  font-family: "Raleway"
+  font-family: "Raleway";
+  background-color: #E9EAE1;
 }
 
 h1 {
@@ -30,9 +31,10 @@ h1 {
 
 .jumbotron {
   margin-top: 3rem;
+  background-color: #abada1;
 }
 
-p {
+p, li {
   text-align: left;
 }
 /* .col-4 {

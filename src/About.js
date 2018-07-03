@@ -17,20 +17,6 @@ class About extends Component {
               <p>Pawnee is not a tourist Mecca, but this fact has made it a somewhat desirable location for those looking to get away from the crowds. Whether it’s taking in a community theater play in the park, guided tours of old Wamapoke hunting and burial grounds, or just shopping in a chain store on Main Street, there’s always at least one thing to do on the weekends. The city has several hotels.</p>
             </div>
           </div>
-
-          <div className="row">
-            <div className="col-4">
-
-
-            </div>
-            <div className="col-4">
-
-            </div>
-
-            <div className="col-4">
-
-            </div>
-          </div>
         </div>
 
 
