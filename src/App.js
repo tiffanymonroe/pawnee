@@ -19,11 +19,11 @@ class App extends Component {
     return (
       <Router>
       <div className="App">
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="about">About</Link>
-          <Link to="government">Government</Link>
-          <Link to="media">Media</Link>
+        <nav className="navbar navbar-expand-lg justify-content-end">
+          <Link to="/" className="nav-link"><i className="fas fa-home"></i></Link>
+          <Link to="about" className="nav-link">About</Link>
+          <Link to="government" className="nav-link">Government</Link>
+          <Link to="media" className="nav-link">Media</Link>
         </nav>
 
         <Route exact path="/" component={Home} />
