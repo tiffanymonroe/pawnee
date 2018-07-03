@@ -9,7 +9,6 @@
 }
 
 body {
-  background-color: #E9EAE1;
   font-family: "Raleway"
 }
 
@@ -21,3 +20,21 @@ h1 {
   width: 15rem;
   height: auto;
 }
+
+.about {
+  margin-top: 5rem;
+}
+.map {
+  width: 100%;
+}
+
+.jumbotron {
+  margin-top: 3rem;
+}
+
+p {
+  text-align: left;
+}
+/* .col-4 {
+  border: 1px solid black;
+} */

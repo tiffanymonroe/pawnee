@@ -13,8 +13,13 @@ class Home extends Component {
       <div className="col-8">
         <h1>Welcome to Pawnee!</h1>
         <h3>First in Friendship, Fourth in Obesity</h3>
+          <p>Welcome to the city of Pawnee, Indiana. We are located 90 miles from Indianapolis and we are the state’s seventh-largest city. This site will serve as your gateway to all that is Pawnee.</p>
       </div>
       </div>
+
+
+
+
       </div>
     )
   }
