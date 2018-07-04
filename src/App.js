@@ -7,6 +7,7 @@ import Home from './Home'
 import About from './About'
 import Government from './Government'
 import Media from './Media'
+import Disclaimer from './Disclaimer'
 
 //React Router
 import {
@@ -30,6 +31,8 @@ class App extends Component {
         <Route path="/about" component={About} />
         <Route path="/government" component={Government} />
         <Route path="/media" component={Media} />
+        <br />
+        <Disclaimer />
       </div>
       </Router>
     );

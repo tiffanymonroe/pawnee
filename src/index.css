@@ -40,3 +40,8 @@ p, li {
 /* .col-4 {
   border: 1px solid black;
 } */
+
+.footer {
+  font-size: .75rem;
+  text-align: center;
+}
