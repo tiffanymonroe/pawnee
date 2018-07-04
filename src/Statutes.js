@@ -20,11 +20,18 @@ const statutes = ["The official number of Pawnee is 14.",
       "Speaking a language other than English shall lead to ridicule and public stoning.",
       "Cosmetics for the face are hereby known as trickery and all women using them will be burned at the stake."]
 
+const randomStatute = ()=>{
+  let random = Math.floor(Math.random() * Math.floor(statutes.length))
+    return statutes[random]
+}
+
+
 class Statutes extends Component {
   render(){
     return(
-      <div>
-          <h4>Municipal Statutes</h4>
+      <div className="statutes">
+        <h4>Did you know?</h4>
+          <h5>{randomStatute()}</h5>
       </div>
     )
   }

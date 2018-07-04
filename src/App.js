@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 //components
 import Home from './Home'
 import About from './About'
-import Government from './Government'
+import Parks from './Parks'
 import Media from './Media'
 import Disclaimer from './Disclaimer'
 
@@ -23,13 +22,13 @@ class App extends Component {
         <nav className="navbar navbar-expand-lg justify-content-end">
           <Link to="/" className="nav-link"><i className="fas fa-home"></i></Link>
           <Link to="about" className="nav-link">About</Link>
-          <Link to="government" className="nav-link">Government</Link>
+          <Link to="parks" className="nav-link">Government</Link>
           <Link to="media" className="nav-link">Media</Link>
         </nav>
 
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
-        <Route path="/government" component={Government} />
+        <Route path="/parks" component={Parks} />
         <Route path="/media" component={Media} />
         <br />
         <Disclaimer />
