@@ -1,21 +1,10 @@
-@font-face {
-  font-family: "Raleway", sans-serif;
-  src: url("https://fonts.googleapis.com/css?family=Raleway");
-
-}
-
-@font-face {
-
-}
-
-
 body {
   font-family: "Raleway";
   background-color: white;
 }
 
-h1 {
-
+h1, h2, h4  {
+  font-family: 'Archivo Black';
 }
 
 nav {
@@ -61,7 +50,13 @@ nav {
   width: 100%;
 }
 
+/* Media */
 
+#lilSebastian {
+  width: 30%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+  margin: 3rem 0;
+}
 
 p, li {
   text-align: left;
