@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import Statutes from './Statutes'
+import Staff from './Staff'
 
 const season3 = require("./assets/Season_3.jpg")
+
 class Parks extends Component {
   render(){
     return(
@@ -12,7 +13,7 @@ class Parks extends Component {
           </div>
           <div className="col-6">
             <h4>Staff</h4>
-            <Statutes />
+            <Staff />
           </div>
 
         </div>
