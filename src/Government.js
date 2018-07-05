@@ -13,7 +13,7 @@ class Parks extends Component {
           </div>
           <div className="col-6">
             <h4>Staff</h4>
-            <Staff />
+
           </div>
 
         </div>
