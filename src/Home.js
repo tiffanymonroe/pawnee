@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import Statutes from './Statutes'
 
+// import images
 const pawnee = require("./assets/Seal_of_the_City_of_Pawnee_Indiana.png")
+const tree = require("./assets/fallen_tree.jpg")
+const party = require("./assets/unity_concert.jpg")
 
 class Home extends Component {
   render(){
@@ -34,10 +37,12 @@ class Home extends Component {
             <div className="row">
               <div className="col-4">
                 <h4>End of Summer Block Party</h4>
+                <img src={party} alt="Unity Concert" className="img-fluid" />
                 <p>Due to scheduling issues, the end of summer block party has been moved to December 1st.</p>
               </div>
               <div className="col-4">
                 <h4>Fallen Tree on Plymouth St.</h4>
+                <img src={tree} alt="fallen tree on plymouth st" className="img-fluid"/>          
                 <p>It’s not your imagination. The fallen tree on Plymouth Street does look like a crocodile! The tree and its remains will be fully cleared from the street in a week, but for now, come down and take a picture with the tree-o-dile! Enjoy the Pawnee Croc-o-tree while there’s still time!</p>
               </div>
 
