@@ -5,21 +5,25 @@ class Staff extends Component {
   constructor(){
     super()
     this.state = {
-      name: "",
-      title: "",
-      department: "",
-      quote: "",
-      img: ""
+      staff: []
     }
   }
-
+//
   componentDidMount(){
-    // const base = this
-    const url = 'http://localhost:1817/api/staff'
+    const base = this
+    const url = "http://localhost:1817/api/staff"
     fetch(url)
-    .then((res)=>{
-      console.log(res);
-    })
+      .then((res)=>{
+        return res.json()
+      })
+      .then((res)=>{
+        base.setState({
+          staff: res
+        })
+      })
+      .catch((err)=>{
+        console.log("an error occured: ", err);
+      })
   }
 
   render(){
