@@ -34,9 +34,9 @@ app.get('/api/staff', (req, res) => {
 
 
 //Add Seed Data
-// Staff.collection.insertMany(parksStaff, (error, data) => {
-// console.log('dammit, Jerry!');
-// });
+Staff.collection.insertMany(parksStaff, (error, data) => {
+console.log('dammit, Jerry!');
+});
 
 app.listen(1817, () => {
   console.log("You're 5000 candles in the wind");
