@@ -34,10 +34,11 @@ app.get('/api/staff', (req, res) => {
 
 
 //Add Seed Data
-Staff.collection.insertMany(parksStaff, (error, data) => {
-console.log('dammit, Jerry!');
-});
+// Staff.collection.insertMany(parksStaff, (error, data) => {
+// console.log('dammit, Jerry!');
+// });
 
-app.listen(1817, () => {
+const port = process.env.PORT || 1817
+app.listen(port, () => {
   console.log("You're 5000 candles in the wind");
 });
