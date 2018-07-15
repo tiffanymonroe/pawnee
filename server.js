@@ -22,7 +22,7 @@ mongoose.connection.once('open', () => {
 //Index Route
 app.get('/api/staff', (req, res) => {
   Staff.find({}, (err, allStaff) => {
-      console.log(allStaff);
+      res.json(allStaff)
   });
 });
 

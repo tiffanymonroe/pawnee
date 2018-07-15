@@ -14,7 +14,7 @@ class Staff extends Component {
   }
 
   componentDidMount(){
-    const base = this
+    // const base = this
     const url = 'http://localhost:1817/api/staff'
     fetch(url)
     .then((res)=>{
