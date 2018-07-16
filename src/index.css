@@ -58,14 +58,13 @@ nav {
 
 .staff {
   list-style: none;
-  /* border: 1px solid green; */
   padding: 1rem;
 }
 .staff-img {
   width: 33%;
   margin-bottom: 1rem;
+  box-shadow: 10px 10px 10px rgba(136,136,136, .08)
 }
-
 
 #department {
   font-weight: bold;
