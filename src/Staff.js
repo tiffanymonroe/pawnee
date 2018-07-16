@@ -10,8 +10,7 @@ class Staff extends Component {
   }
 
   componentDidMount(){
-    // const url = "https://pawnee-api.herokuapp.com/staff"
-    const url = "http://localhost:1817/staff"
+    const url = "https://pawnee-api.herokuapp.com/staff"
     fetch(url)
       .then((res)=>{
         return res.json()
