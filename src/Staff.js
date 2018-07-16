@@ -5,21 +5,31 @@ class Staff extends Component {
   constructor(){
     super()
     this.state = {
-      staff: []
+      name: "",
+      title: "",
+      department: "",
+      quote: "",
+      img: ""
     }
   }
 //
   componentDidMount(){
     const base = this
-    const url = "http://localhost:1817/api/staff" || process.env.PORT
+    const url = "https://pawnee-api.herokuapp.com/staff"
     fetch(url)
       .then((res)=>{
         return res.json()
       })
       .then((res)=>{
+        console.log(res);
         base.setState({
-          staff: res
+          name: res.name,
+          title: res.title,
+          department: res.department,
+          quote: res.quote,
+          img: res.img
         })
+
       })
       .catch((err)=>{
         console.log("an error occured: ", err);
@@ -27,10 +37,11 @@ class Staff extends Component {
   }
 
   render(){
+
     return(
       <div>
         <ul>
-          <li></li>
+          <div></div>
         </ul>
       </div>
     )
