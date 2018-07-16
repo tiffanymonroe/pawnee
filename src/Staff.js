@@ -5,14 +5,14 @@ class Staff extends Component {
   constructor(){
     super()
     this.state = {
-      name: [],
-      title: [],
-      department: [],
-      quote: [],
-      img: []
+      name: "",
+      title: "",
+      department: "",
+      quote: "",
+      img: ""
     }
   }
-//
+
   componentDidMount(){
     const url = "https://pawnee-api.herokuapp.com/staff"
     fetch(url)
@@ -35,12 +35,16 @@ class Staff extends Component {
   }
 
   render(){
-    console.log("this is name: ", this.state.name);
-    console.log("this is title: ", this.state.title);
     return(
       <div>
         <ul>
-
+          <li className="staff">
+            <img src={this.state.img} alt={this.state.name} className="img-fluid staff-img" /> <br/>
+            {this.state.name} <br/>
+            {this.state.title} <br/>
+            {this.state.department} <br/>
+            <span className="quote">{this.state.quote} </span><br/>
+          </li>
         </ul>
       </div>
     )

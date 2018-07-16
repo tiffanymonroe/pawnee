@@ -54,6 +54,21 @@ nav {
   width: 100%;
 }
 
+/* Government */
+
+.staff {
+  list-style: none;
+}
+.staff-img {
+  height: 60px;
+  width: auto;
+  padding: 2px;
+  border: 1px solid black;
+}
+.quote {
+  font-style: italic;
+}
+
 /* Media */
 
 #lilSebastian {
