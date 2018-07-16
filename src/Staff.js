@@ -11,7 +11,7 @@ class Staff extends Component {
 //
   componentDidMount(){
     const base = this
-    const url = "http://localhost:1817/api/staff"
+    const url = "http://localhost:1817/api/staff" || process.env.PORT
     fetch(url)
       .then((res)=>{
         return res.json()
