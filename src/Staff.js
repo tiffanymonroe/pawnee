@@ -27,11 +27,10 @@ class Staff extends Component {
   }
 
   render(){
-    console.log(this.state.staff);
     return(
       <div>
         <ul>
-
+          {this.state.staff.map((person, index) => <li key={index}>{person.name}</li>)}
 
 
         </ul>
