@@ -26,10 +26,8 @@ class Staff extends Component {
       })
   }
 
-
-
   render(){
-    console.log(this.state);
+    console.log(this.state.staff);
     return(
       <div>
         <ul>
