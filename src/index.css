@@ -3,7 +3,7 @@ body {
   background-color: white;
 }
 
-h1, h2, h4  {
+h1, h2, h4, h6  {
   font-family: 'Archivo Black';
 }
 
@@ -58,12 +58,17 @@ nav {
 
 .staff {
   list-style: none;
+  /* border: 1px solid green; */
+  padding: 1rem;
 }
 .staff-img {
-  height: 60px;
-  width: auto;
-  padding: 2px;
-  border: 1px solid black;
+  width: 33%;
+  margin-bottom: 1rem;
+}
+
+
+#department {
+  font-weight: bold;
 }
 .quote {
   font-style: italic;
